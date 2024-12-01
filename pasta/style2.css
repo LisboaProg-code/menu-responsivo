@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Telas maiores */
+
+@media screen and (min-width: 768px){
+    
+    header{
+        height: 17vh;
+    }
+
+    .material-symbols-outlined{
+        display: none;
+    }
+
+    nav{
+        display: block !important;
+        transform: translateY(110%);
+    }
+
+    nav a{
+        padding: 15px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    main{
+        width: 768px;
+    }
+
+}
